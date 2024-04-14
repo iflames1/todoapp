@@ -6,12 +6,8 @@ export default function TodoItem({ item, todos, setTodos, id }) {
     return null;
   }
   function handleDelete(id) {
-    console.log("Deleting todo with id:", id);
-
     setTodos(todos.filter((todo) => todo.id !== id));
   }
-
-  console.log(todos);
 
   const classButton = todo?.done ? styles.undoneButton : styles.doneButton;
   const renderDone = todo?.done ? "Mark as Undone" : "Done";
