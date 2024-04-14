@@ -1,0 +1,24 @@
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #6014ec;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer {
+		font-size: 1.2em;
+		padding: 10px;
+	}
+}

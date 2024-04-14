@@ -1,0 +1,25 @@
+.header {
+	position: sticky;
+	width: full;
+	top: 0;
+	background-color: #6014ec;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	padding: 30px 20px;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.header {
+		font-size: 1.2em;
+		padding: 20px;
+	}
+}
+

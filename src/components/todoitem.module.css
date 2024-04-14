@@ -1,0 +1,50 @@
+.item {
+	padding: 20px 0;
+}
+
+.itemName {
+	color: #353935;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.line {
+	border: 1px solid #f4f4f4;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+.removeButton {
+	font: bold;
+	padding: 8px 10px;
+	border: none;
+	background-color: #e33b3b;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.doneButton {
+	font: bold;
+	padding: 8px 10px;
+	border: none;
+	background-color: rgb(17, 197, 17);
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.undoneButton {
+	font: bold;
+	padding: 8px 10px;
+	border: none;
+	background-color: #e33b3b;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}

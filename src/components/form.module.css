@@ -1,0 +1,45 @@
+.todoform {
+	background-color: white;
+	margin: 20px auto 50px auto;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+	@media screen and (max-width: 480px) {
+		/* small */
+		width: 80%;
+ 	}
+	@media screen and (min-width: 768px) {
+		/* large */
+		width: 500px;
+ 	}
+}
+
+.modernInput {
+	width: 100%;
+	border: none;
+	display: block;
+	color:black;
+	font-size: 25px;
+	padding: 1px;
+}
+
+.modernInput:focus {
+	outline: none;
+}
+
+.modernButton {
+	width: 30%;
+	border: none;
+	display: block;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #6014ec;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.todoContainer {
+	display: flex;
+}
